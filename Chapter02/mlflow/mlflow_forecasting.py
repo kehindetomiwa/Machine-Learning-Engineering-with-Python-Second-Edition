@@ -1,10 +1,10 @@
 #BASED ON EXAMPLE FROM MLFLOW DOCS
 # https://github.com/mlflow/mlflow/blob/master/examples/prophet/train.py
 import pandas as pd
-from fbprophet import Prophet
+from prophet import Prophet
 
-from fbprophet.diagnostics import cross_validation
-from fbprophet.diagnostics import performance_metrics
+from prophet.diagnostics import cross_validation
+from prophet.diagnostics import performance_metrics
 
 import mlflow
 import mlflow.pyfunc
@@ -19,7 +19,7 @@ class FbProphetWrapper(mlflow.pyfunc.PythonModel):
         super().__init__()
 
     def load_context(self, context):
-        from fbprophet import Prophet
+        from prophet import Prophet
 
         return
 

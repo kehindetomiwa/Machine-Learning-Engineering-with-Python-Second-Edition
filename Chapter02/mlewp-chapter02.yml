@@ -161,7 +161,7 @@ dependencies:
       - tqdm==4.65.0
       - traitlets==5.9.0
       - trove-classifiers==2023.3.9
-      - typing-extensions==4.5.0
+      - typing-extensions
       - uri-template==1.2.0
       - urllib3==1.26.15
       - virtualenv==20.21.0
