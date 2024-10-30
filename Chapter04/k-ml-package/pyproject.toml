@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "k-ml-package"
+version = "0.1.0"
+description = ""
+authors = ["Kehinde Tomiwa <kehinde.tomiwa-cloud2@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pytest = "^8.3.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

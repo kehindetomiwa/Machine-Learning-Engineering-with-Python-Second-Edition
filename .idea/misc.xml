@@ -3,5 +3,8 @@
   <component name="Black">
     <option name="sdkName" value="mlewp-chapter01" />
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="mlewp-chapter01" project-jdk-type="Python SDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.10 (mlewp-ed2-ch4-outliers)" project-jdk-type="Python SDK" />
+  <component name="PyPackaging">
+    <option name="earlyReleasesAsUpgrades" value="true" />
+  </component>
 </project>
